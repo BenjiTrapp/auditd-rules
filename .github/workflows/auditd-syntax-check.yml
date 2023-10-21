@@ -7,7 +7,13 @@ on:
   pull_request:
     branches:
       - master
-
+  workflow_dispatch: # Add this block to enable manual triggering
+    inputs:
+      reason:
+        description: 'Reason for running the workflow'
+        required: true
+        default: 'Manual run'
+    
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -36,7 +42,6 @@ jobs:
       - name: Check rules
         run: sudo augenrules --check 2>&1
 
-      # This will load the compiled rules file, check how many lines are in it, and display each line if successful
       - name: Load rules
         run: |
           sudo augenrules --load 2>&1
