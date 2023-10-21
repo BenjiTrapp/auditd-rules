@@ -45,5 +45,5 @@ jobs:
       - name: Load rules
         run: |
           sudo augenrules --load 2>&1
-          sudo wc -l /etc/audit/audit.rules
+          sudo wc -l /etc/audit/auditd.rules
           sudo auditctl -l
