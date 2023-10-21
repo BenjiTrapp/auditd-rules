@@ -1,3 +1,5 @@
+[![Auditd Syntax Checks](https://github.com/BenjiTrapp/auditd-rules/actions/workflows/auditd-syntax-check.yml/badge.svg)](https://github.com/BenjiTrapp/auditd-rules/actions/workflows/auditd-syntax-check.yml)
+
 ```
  █████╗ ██╗   ██╗██████╗ ██╗████████╗██████╗ 
  ██╔══██╗██║   ██║██╔══██╗██║╚══██╔══╝██╔══██╗
