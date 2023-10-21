@@ -1,3 +1,4 @@
+```
  █████╗ ██╗   ██╗██████╗ ██╗████████╗██████╗ 
  ██╔══██╗██║   ██║██╔══██╗██║╚══██╔══╝██╔══██╗
  ███████║██║   ██║██║  ██║██║   ██║   ██║  ██║
@@ -5,6 +6,7 @@
  ██║  ██║╚██████╔╝██████╔╝██║   ██║   ██████╔╝
  ╚═╝  ╚═╝ ╚═════╝ ╚═════╝ ╚═╝   ╚═╝   ╚═════╝ 
                     Harden your Unix   
+```
 
 This repository provides a valuable resource for enhancing system security by implementing comprehensive auditd rules and verifying their effectiveness through automated testing. The applied rules are based on my learnings to get deeper into the topic for hardening my Linux machines.
 
